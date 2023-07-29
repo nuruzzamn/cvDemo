@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: rgb(11, 33, 45);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-weight: 400;
+    
+}
+
+h1,h2,h3,h4{
+    color: rgb(74, 236, 198);
+}
+
+header{
+
+}
+
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid  white;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio-data{
+    float: left;
+    margin: 30px;
+}
+
+.bio-data h3{
+    color: white;
+    margin-top: 10px;
+}
+
+.bio-details{
+    float:right;
+    margin: 30px;
+
+}
+
+.bio-details a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.bio-details p a {
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+.bio-details a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.hr-style{
+    
+    border: 5px solid blanchedalmond;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.content-personal-information{
+
+}
+
+.left-div{
+    float: left;
+    width: 30%;
+}
+
+.right-div{
+    float: left;
+    width: 70%;
+}
+
+.right-div h5{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.common-hr{
+    border: 1px solid blanchedalmond;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* ul  {
+    padding-left: 0;
+  }
+
+ul li {
+     list-style-position: inside;
+  } */
+
+.content-education .right-div .edu-left{
+    float: left;
+    width: 45%;
+}
+
+.content-education .right-div .edu-right{
+    float: right;
+    width: 45%;
+}
+
+.footer-container{
+    background-color: black;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-container .footer-element a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container .footer-element a:hover{
+    text-decoration: underline;
+    color: tomato;
+    font-weight: 400;
+}
+
+.footer-container p{
+    color: white;
+    font-weight: 300;
+    /* padding: 10px; */
+    margin-top: 20px;
+} 
